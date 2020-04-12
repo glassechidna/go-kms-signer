@@ -6,7 +6,7 @@ Because we can. And it's #pre:invent madness season.
 
 ## What
 
-Two things (right now):
+Three things (right now):
 
 ### `kmssigner`
 
@@ -40,6 +40,12 @@ Once you've downloaded `kms-ssh-agent`, you can run:
     # this will:
     #   * magically ssh into your server using the power of KMS.
     ssh ec2-user@<ip>
+
+### `kmsca`
+
+This is an extremely crude example of using a KMS asymmetric key to power a
+certificate authority. Just about everything that could be hardcoded *is*
+hardcoded. Use it as.. "inspiration". 
   
 ## Should I use this?
 
